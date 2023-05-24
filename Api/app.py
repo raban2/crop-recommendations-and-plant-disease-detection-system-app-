@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 import pickle
 import numpy as np
 
-# unpickling the model
+# unpickling the model of Random forest
 model = pickle.load(open('./recommendation-models/RF.pkl', 'rb'))
 
 # creating the object of the flask
