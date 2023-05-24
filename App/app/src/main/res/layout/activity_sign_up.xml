@@ -16,8 +16,7 @@
         android:layout_margin="30dp"
         android:textAlignment="center"
         android:elevation="20dp"
-        app:cardCornerRadius="30dp"
-       >
+        app:cardCornerRadius="30dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,7 +33,7 @@
                 android:textAlignment="center"
                 android:textColor="@color/lavender"
                 android:textSize="30sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"/>
 
             <EditText
                 android:id="@+id/signup_email"
@@ -46,8 +45,7 @@
                 android:drawablePadding="8dp"
                 android:hint="Email"
                 android:padding="8dp"
-                android:textColor="@color/lavender" />
-
+                android:textColor="@color/lavender"/>
 
             <EditText
                 android:id="@+id/signup_password"
@@ -59,7 +57,7 @@
                 android:drawablePadding="8dp"
                 android:hint="Password"
                 android:padding="8dp"
-                android:textColor="@color/lavender" />
+                android:textColor="@color/lavender"/>
 
             <Button
                 android:id="@+id/signup_button"
@@ -69,7 +67,7 @@
                 android:background="@drawable/custom_edittext"
                 android:backgroundTint="@color/lavender"
                 android:text="Sign Up"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
             <TextView
                 android:id="@+id/loginRedirectText"
@@ -80,9 +78,10 @@
                 android:padding="8dp"
                 android:text="Already an user? Login"
                 android:textColor="@color/lavender"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
 
         </LinearLayout>
+
     </androidx.cardview.widget.CardView>
 
 </LinearLayout>
