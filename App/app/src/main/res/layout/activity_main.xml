@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/pagebkg"
     tools:context=".MainActivity">
 
     <TextView
@@ -31,11 +32,5 @@
         app:itemIconTint="@drawable/item_selector"
         app:itemRippleColor="@android:color/transparent"
         app:labelVisibilityMode="unlabeled" />
-
-
-
-
-
-
 
 </RelativeLayout>
