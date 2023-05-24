@@ -1,9 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.SmartFarms" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+        <!-- Primary brand color. -->
+         <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryVariant">@color/lavender</item>
+        <item name="colorOnPrimary">@color/white</item>
 
-    <style name="Theme.SmartFarms" parent="Base.Theme.SmartFarms" />
+
+     <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+         <!--status bar color-->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!--customize your theme -->
+    </style>
+    <style name="SliderActivityAnimation" parent="@android:style/Animation.Activity" >
+        <item name="android:activityOpenEnterAnimation">@anim/slider_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slider_out_left</item>
+<!--        <style name="Theme.SmartFarms" parent="Base.Theme.SmartFarms" />-->
+    </style>
 </resources>
